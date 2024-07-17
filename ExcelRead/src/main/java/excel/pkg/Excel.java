@@ -26,7 +26,7 @@ public class Excel {
 
 
 
-	f= new FileInputStream("C:\\Users\\neena.bn\\eclipse-workspace\\ExcelRead\\src\\main\\resources\\student.xlsx");
+	f= new FileInputStream("C:\\Users\\USER\\git\\ExcelRead\\ExcelRead\\src\\main\\resources\\student.xlsx");
 
 
 
@@ -42,7 +42,7 @@ public class Excel {
 
 	Cell c=r.getCell(j);
 
-
+  System.out.println("Test");
 
 	return c.getStringCellValue();
 
@@ -58,7 +58,7 @@ public class Excel {
 
 
 
-			f= new FileInputStream("C:\\Users\\neena.bn\\eclipse-workspace\\ExcelRead\\src\\main\\resources\\student.xlsx");
+			f= new FileInputStream("C:\\Users\\USER\\git\\ExcelRead\\ExcelRead\\src\\main\\resources\\student.xlsx");
 
 
 
